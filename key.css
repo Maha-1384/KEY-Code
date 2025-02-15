@@ -8,20 +8,20 @@ body {
 }
 .container {
   height: 100vh;
-  width: 80%;
+  width: 320px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-h2 , h1 , h3 {
+h1 , h3 {
   color: rgb(255, 255, 0);
   text-decoration: underline 2px;
-  margin-bottom: 0.9rem;
+  margin-bottom: 1rem;
 }
 input {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   background-color: transparent;
   padding: 1rem;
   width: 18rem;
@@ -34,19 +34,42 @@ input {
 .elements-3 {
   text-align: center;
   margin-top: 1rem;
-  width: 20rem;
+  width:99%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.output-box1,
+.output-box2,
+.output-box3
+ {
+  text-align: center;
+  color: white;
+  height: 30px;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(255, 255, 0);
+  padding: 8px 2px 1px 2px;
+}
+small {
+  font-size: 1rem;
+  color: rgb(255, 255, 0);
+}
+.output-box1,
+.output-box3
+ {
+  width: 136px;
+ }
+
+.output-box2{
+  width: 32px;
+ }  
+ .box{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.output-box {
-  color: white;
-  margin-top: 0.2rem;
-  border: 2px solid rgb(255, 255, 0);
-  height: 2rem;
-  width: 6.3rem;
-  padding-top: 0.29rem;
-}
-small {
-  color: rgb(255, 255, 0);
-}
+.box2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
